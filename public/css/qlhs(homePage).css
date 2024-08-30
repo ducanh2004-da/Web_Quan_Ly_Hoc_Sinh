@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.btn-group{
+    position:relative;
+    right:10px;
+    padding:10px;
+}
+.regis-btn{
+    position:absolute;
+    right:10px;
+    width:100px;
+    border-radius:10px;
+    text-decoration: none;
+    transition:all 2s;
+}
+.login-btn{
+    position:absolute;
+    width:100px;
+    border-radius:10px;
+    transition:all 2s;
+}
+.regis-btn:hover{
+    background-color: yellow;
+    transform:scale(1.5,1.5);
+}
+.login-btn:hover{
+    background-color: yellow;
+    transform:scale(1.5,1.5);
+}
+.background{
+    position:relative;
+    width:100%;
+    height:80vh;
+    top:-20px;
+    background-image: url('/images/London.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text-intro{
+    position:absolute;
+    text-align: center;
+    font-size: 60px;
+    top: 220px;
+    left:30%;
+}
+.input-field{
+    display:none;
+    position:relative;
+    background-color: white;
+    top:100px;
+    width: 300px;
+    height: 50vh;
+    margin: auto auto;
+    border-radius: 30px 30px 1px 1px;
+}
+.btn-group2{
+    position:absolute;
+    left: 45px;
+}
+.btn-group2 button{
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    transition: all 2s;
+}
+.inp{
+    position:relative;
+    top: 50px;
+    left: 63px;
+}
+.sub-btn{
+    position: absolute;
+    display: block;
+    left: 55px;
+}
+.inp input:nth-child(2){
+    position: absolute;
+    right:122px;
+    top: 80px;
+}
+.inp input:nth-child(3){
+    position: absolute;
+    right:122px;
+    top: 140px;
+}
+.inp input:nth-child(4){
+    position: absolute;
+    top: 180px;
+}
+.register:hover{
+    background-color: yellow;
+    transform: scale(1.2,1.2);
+}
+.login:hover{
+    background-color: yellow;
+    transform: scale(1.2,1.2);
+}
+.about-section{
+    display:block;
+    height:80vh;
+}
+.content-about{
+    position:relative;
+    padding: 100px;
+}
+.item-about{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    padding-top:100px;
+}
+.about-1{
+    position:absolute;
+    background-image: url('./hongkong.jpg');
+    cursor:pointer;
+}
+.about-2{
+    position:absolute;
+    left:450px;
+    background-image: url('./London.jpg');
+    cursor:pointer;
+}
+.about-3{
+    position:absolute;
+    left:850px;
+    background-image: url('./paris.jpg');
+    cursor:pointer;
+}
+.item-about:hover,
+.item-about:active{
+    transform: scale(1.2,1.2);
+    filter:brightness(55%) blur(2px);
+}
+
+.creater-section{
+    display:block;
+    height:80vh;
+}
+.creater{
+    padding-top:100px;
+}
+.creater img{
+    border-radius: 150px;
+    cursor: pointer;
+}
+.tt-creater{
+    position:relative;
+    background-color: aqua;
+    width:100%;
+    height:30vh;
+    margin-top: 50px;
+}
+li{
+    list-style: none;
+}
+.tt-product{
+    padding-top:15px;
+}
+.tt-product li{
+    padding:15px;
+}
+.tt-creater img{
+    padding-top:30px;
+} 
+footer{
+    background-color: black;
+    color:aliceblue;
+}
+/* @media only screen and (max-width:669px){
+    /* .item-about{
+        width:100px;
+        height:100px;
+    }
+    .about-1{
+        top:-100px;
+        left: 10%;
+    }
+    .cre-1{
+        width:10px;
+        height:10px;
+    }
+    .cre-2{
+        width:10px;
+        height:10px;
+    } 
+} */
+@media only screen and (max-width:46.1875em){
+    .item-about{
+        width:200px;
+        height:130px;
+    }
+    .about-1{
+        top:-15px;
+        left: 30%;
+    }
+    .about-2{
+        left: 30%;
+        top:180px;
+    }
+    .about-3{
+        left: 30%;
+        top:370px;
+    }
+    .btn-group{
+        margin-left: 30%;
+    }
+    .creater{
+        padding-top:0px ;
+    }
+    .creater-1{
+        margin-left:20%;
+    }
+    .cre-1{
+        width:230px;
+        height:150px;
+        border-radius: none;
+    }
+    .cre-2{
+        width:230px;
+        height:150px;
+        border-radius: none;
+    }
+    .blq1{
+        margin-left: -20%;
+    }
+    .blq2{
+        margin-left: -20%;
+    }
+     
+}
+@media screen and (min-width: 46.25em) and (max-width: 73.9375em){
+    .about-3{
+        left:100px;
+        top:320px;
+    }
+    .creater{
+        padding-top:0px ;
+    }
+    .creater-1{
+        margin-left:30%;
+    }
+    .cre-1{
+        width:280px;
+        height:200px;
+        border-radius: none;
+    }
+    .cre-2{
+        width:280px;
+        height:200px;
+        border-radius: none;
+    }
+    .blq1{
+        margin-left: -20%;
+    }
+    .blq2{
+        margin-left: -20%;
+    }
+}
